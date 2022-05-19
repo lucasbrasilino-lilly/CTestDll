@@ -1,0 +1,61 @@
+// ==== Standard defines ====
+// These defines should be set for a better readability of the Template
+
+#define USE_INPUT_VALUES
+//#undef USE_INPUT_VALUES
+
+#define USE_INPUT_IMAGES
+//#undef USE_INPUT_IMAGES
+
+#define USE_RESULT_VALUES
+//#undef USE_RESULT_VALUES
+
+//For SVO_INTERFACE_001_ONLY this has always undef, because it is available.
+//#define USE_RESULT_ARRAYS
+#undef USE_RESULT_ARRAYS
+
+#define USE_RESULT_IMAGES
+//#undef USE_RESULT_IMAGES
+
+//For SVO_INTERFACE_001_ONLY this has always undef, because it is available.
+//#define USE_RESULT_TABLES
+#undef USE_RESULT_TABLES
+
+// ==== Examplecode ==== 
+// it is not necessary to use this. To remove the examplecode from the Template use undef 
+//#define EXAMPLECODE
+//#undef EXAMPLECODE
+ 
+
+// ==== Interface defines ====  
+// These defines are set in defines.h
+// They are used to target different VS Configurations using a single source base.
+// If the target plattform is know, these can be set
+// define only a single interface and undefine the others
+
+#define SVO_INTERFACE_001_ONLY
+//#undef SVO_INTERFACE_001_ONLY
+
+//#define SVO_INTERFACE_820_OR_HIGHER
+#undef SVO_INTERFACE_820_OR_HIGHER
+
+//#define SVO_INTERFACE_1000_OR_HIGHER
+#undef SVO_INTERFACE_1000_OR_HIGHER
+
+
+// ==== MIL defines ====  
+// These defines are set in SVGlobalProperties.props based on the compile configuration
+// They are used to target different VS Configurations using a single source base.
+// If the target plattform is know, these can be set
+
+// define only a single interface and undefine the others
+
+//#define MIL9
+//#undef MIL9
+
+//#define MIL10
+//#undef MIL10
+
+//#define NOMIL
+//#undef NOMIL
+

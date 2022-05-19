@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_mil10|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(PATH_3RDPARTY)\Matrox\MIL10_64bit\Include;$(PATH_3RDPARTY)\boost_1_72_0</AdditionalIncludeDirectories>
+	  <PreprocessorDefinitions>MIL10;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(PATH_3RDPARTY)\Matrox\MIL10_64bit\LIB</AdditionalLibraryDirectories>
+    </Link>
+	<ResourceCompile>
+      <PreprocessorDefinitions>MIL10;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_mil9|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(PATH_3RDPARTY)\Matrox\MIL9_64bit_M900B1950R2+\Include;$(PATH_3RDPARTY)\boost_1_72_0</AdditionalIncludeDirectories>
+	  <PreprocessorDefinitions>MIL9;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(PATH_3RDPARTY)\Matrox\MIL9_64bit_M900B1950R2+\LIB</AdditionalLibraryDirectories>
+    </Link>
+	<ResourceCompile>
+      <PreprocessorDefinitions>MIL9;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_HBmp|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(PATH_3RDPARTY)\boost_1_72_0</AdditionalIncludeDirectories>
+	    <PreprocessorDefinitions>NOMIL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories></AdditionalLibraryDirectories>
+    </Link>
+	<ResourceCompile>
+      <PreprocessorDefinitions>NOMIL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_mil10|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(PATH_3RDPARTY)\Matrox\MIL10_64bit\Include;$(PATH_3RDPARTY)\boost_1_72_0</AdditionalIncludeDirectories>
+	  <PreprocessorDefinitions>MIL10;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(PATH_3RDPARTY)\Matrox\MIL10_64bit\LIB;$(PATH_3RDPARTY)\boost_1_72_0\libs</AdditionalLibraryDirectories>
+    </Link>
+	<ResourceCompile>
+      <PreprocessorDefinitions>MIL10;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_mil9|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(PATH_3RDPARTY)\Matrox\MIL9_64bit_M900B1950R2+\Include;$(PATH_3RDPARTY)\boost_1_72_0</AdditionalIncludeDirectories>
+	    <PreprocessorDefinitions>MIL9;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(PATH_3RDPARTY)\Matrox\MIL9_64bit_M900B1950R2+\LIB</AdditionalLibraryDirectories>
+    </Link>
+	<ResourceCompile>
+      <PreprocessorDefinitions>MIL9;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_HBmp|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>;$(PATH_3RDPARTY)\boost_1_72_0</AdditionalIncludeDirectories>
+	    <PreprocessorDefinitions>NOMIL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories></AdditionalLibraryDirectories>
+    </Link>
+	<ResourceCompile>
+      <PreprocessorDefinitions>NOMIL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

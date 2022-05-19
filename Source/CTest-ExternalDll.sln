@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CTest", "ExternalDll.vcxproj", "{F18E13E9-FE92-8282-1B1F-4312951A3D6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_HBmp|x64 = Debug_HBmp|x64
+		Debug_mil10|x64 = Debug_mil10|x64
+		Debug_mil9|x64 = Debug_mil9|x64
+		Release_HBmp|x64 = Release_HBmp|x64
+		Release_mil10|x64 = Release_mil10|x64
+		Release_mil9|x64 = Release_mil9|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F18E13E9-FE92-8282-1B1F-4312951A3D6B}.Debug_HBmp|x64.ActiveCfg = Debug_HBmp|x64
+		{F18E13E9-FE92-8282-1B1F-4312951A3D6B}.Debug_HBmp|x64.Build.0 = Debug_HBmp|x64
+		{F18E13E9-FE92-8282-1B1F-4312951A3D6B}.Debug_mil10|x64.ActiveCfg = Debug_mil10|x64
+		{F18E13E9-FE92-8282-1B1F-4312951A3D6B}.Debug_mil10|x64.Build.0 = Debug_mil10|x64
+		{F18E13E9-FE92-8282-1B1F-4312951A3D6B}.Debug_mil9|x64.ActiveCfg = Debug_mil9|x64
+		{F18E13E9-FE92-8282-1B1F-4312951A3D6B}.Debug_mil9|x64.Build.0 = Debug_mil9|x64
+		
+		{F18E13E9-FE92-8282-1B1F-4312951A3D6B}.Release_HBmp|x64.ActiveCfg = Release_HBmp|x64
+		{F18E13E9-FE92-8282-1B1F-4312951A3D6B}.Release_HBmp|x64.Build.0 = Release_HBmp|x64
+		{F18E13E9-FE92-8282-1B1F-4312951A3D6B}.Release_mil10|x64.ActiveCfg = Release_mil10|x64
+		{F18E13E9-FE92-8282-1B1F-4312951A3D6B}.Release_mil10|x64.Build.0 = Release_mil10|x64
+		{F18E13E9-FE92-8282-1B1F-4312951A3D6B}.Release_mil9|x64.ActiveCfg = Release_mil9|x64
+		{F18E13E9-FE92-8282-1B1F-4312951A3D6B}.Release_mil9|x64.Build.0 = Release_mil9|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
